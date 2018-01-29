@@ -371,7 +371,7 @@ void dish_prepare(int socketfd)
 				scanf("%c",&select);
 				while(getchar() != '\n');
 				if(select >= FLAVOUR && select <= LETTUCE)
-					break; 
+					break;
 				if(select >= 'a' && select <= 'k')
 					break;
 				else

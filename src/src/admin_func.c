@@ -910,7 +910,6 @@ void food_add(int socketfd)
 		//gets(dish.name);
 		ret = read(STDOUT_FILENO,dish.name,sizeof(dish.name));
 		dish.name[ret-1] = '\0';
-		//while(getchar() != '\n');
 		position(1,4,0);
 		printf("菜  品  价  格：");
 		scanf("%f",&dish.price);
