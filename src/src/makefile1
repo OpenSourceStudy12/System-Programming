@@ -1,0 +1,10 @@
+OBJ = -c -I ../inc/ -g
+
+#package.o:package.c
+#	gcc $(OBJ) package.c
+commen.o:commen.c
+	gcc $(OBJ) commen.c
+
+
+clean: 
+	rm *.o  ./server/*.o ./server/server ./client/*.o ./client/client
