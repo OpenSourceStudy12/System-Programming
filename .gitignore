@@ -1,0 +1,4 @@
+src/src/*.o
+src/src/server
+src/src/client
+src/src/chief
